@@ -1,0 +1,209 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+
+nav.sticky {
+  padding: 15px 20px;
+  background-color: transparent;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .nav-content {
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: #eaecf2;
+  font-family: cursive;
+  font-style: italic;
+}
+
+nav .logo img {
+  width: 40px;
+  margin-top: 2px;
+}
+
+nav.sticky .logo a {
+  color: #fff;
+}
+
+.nav-content .nav-links {
+  display: flex;
+}
+
+.nav-content .nav-links li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #bbddf1;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #98b2f4;
+}
+
+nav.sticky .nav-links li a {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+nav.sticky .nav-links li a:hover {
+  color: #0E2431;
+}
+
+/*.home{
+    height: 200vh;
+    width: 150%;
+    background: url("img/bgimg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0%;
+  }*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 200vh;
+  width: 100%;
+  background-image: url('img/bgimg10.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: aliceblue;
+}
+
+.text {
+  margin-top: 132px;
+  margin-left: 126px;
+  width: 25%;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 0px;
+  font-family: fantasy;
+}
+
+.comment {
+  margin: 0%;
+}
+
+#para {
+  margin-top: 0%;
+}
+
+p {
+  font-size: 21px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  /* background-color: transparent;*/
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+  background-color: #2c3337;
+}
+
+.allcard {
+
+margin-top: 300px;
+height: 48%;
+width: 100%;
+padding: 30px;
+text-align: center;
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+}
+
+.how-it-work{
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.how-it-work h2{
+  color: black;
+  text-decoration: underline;
+  font-style: oblique;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+  margin-top: 40px;
+  display: flex;
+}
+.card1 {
+  background: rgba(0, 0, 0, 0.4);
+  height: 300px;
+  width: 30px;
+  padding: 30px;
+  margin-left: 161px;
+  border-radius: 3%;
+}
+.card2{
+  background: rgba(0, 0, 0, 0.4);
+  margin-left: 47px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 3%;
+}
+.card3{
+  background: rgba(0, 0, 0, 0.4);
+  margin-left: 47px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 3%;
+}
+.card-img-top {
+  height: 152px;
+  width: 288px;
+}
+
+.card1:hover,.card2:hover,.card3:hover{
+  background: rgba(0, 0, 0, 0.7);
+}

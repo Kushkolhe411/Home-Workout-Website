@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="befit.css">
+  <title>BeFit</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-content">
+        <div class="logo">
+          <img src="img/logo2 (1).png" alt="">
+          <a href="#">BeFit.</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Challenges</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="home"></section>
+  <section class="text">
+    <!--<div id="getfit" class="comment" 
+    style="visibility: inherit;">
+    <p class="font_4 wixui-rich-text__text" style="font-size:42px;">Get Fit</p>
+  </div>-->
+    <div id="youwill" class="comment" style="visibility: inherit;">
+      <h1 class="font_0 wixui-rich-text__text" style="font: size 95px;">You Can<br>
+        &amp; You Will</h1>
+    </div>
+    <div id="para" class="comment" style="visibility: inherit;">
+      <p class="font_7 wixui-rich-text__text" style="line-height:1.4em; font: size 30px;">"Fitness is not about being
+        better than someone else.<br> It's about being better than you used to be." &nbsp;</p>
+    </div>
+    <div id="button" class="c9GqVL QxJLC3 comp-koa2odcf wixui-rich-text" style="visibility: inherit;" data-angle="0"
+      data-angle-style-location="style" data-screen-in-hide="done">
+      <button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Popover title"
+        data-bs-content="And here's some amazing content. It's very engaging. Right?">GET STARTED</button>
+    </div>
+  </section>
+  <section class="allcard">
+    <div class="how-it-work">
+      <h2 style="text-decoration: underline;">HOW IT WORKS?</h2>
+    </div>
+    <div class="card">
+      <div class="card1" style="width: 18rem;">
+        <img src="/img/bgimg1.jpg" class="card-img-top" alt="..." style="border-radius: 2%;">
+        <div class="card-body">
+          <!--<h5 class="card-title">Card title</h5>-->
+          <p class="card-text">Choose the part of your body you want to work on (e.g. abs, arms, legs) and your
+            difficulty level (beginner to advanced).</p>
+        </div>
+      </div>
+      <div class="card2" style="width: 18rem;">
+        <img src="/img/bgimg1.jpg" class="card-img-top" alt="..." style="border-radius: 2%;">
+        <div class="card-body">
+          <!--<h5 class="card-title">Card title</h5>-->
+          <p class="card-text">BeFit generates a list of exercises for you, with images and recommended reps/sets.</p>
+        </div>
+      </div>
+      <div class="card3" style="width: 18rem;">
+        <img src="/img/bgimg1.jpg" class="card-img-top" alt="..." style="border-radius: 2%;">
+        <div class="card-body">
+          <!--<h5 class="card-title">Card title</h5>-->
+          <p class="card-text">Click "Start Workout" to begin. Flexin displays each exercise in order, with a timer.
+            Pause, skip ahead, or stop your workout anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll = function () {
+      if (document.documentElement.scrollTop > 100) {
+        nav.classList.add("sticky");
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+
+</html>
