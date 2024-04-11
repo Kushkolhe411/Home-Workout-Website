@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 200vh;
+    width: 100%;
+    background-image: url('img/bgimg10.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+div {
+    margin: 20px;
+}
+
+ul {
+    position: absolute;
+    list-style-type: none;
+    width: 500px;
+}
+
+h3 {
+    font: bold 15px/1.9 Helvetica, Verdana, sans-serif;
+    color:  rgba(255, 68, 0, 1);
+}
+
+li img {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+li p {
+    font: 200 20px/1.5 Georgia, Times New Roman, serif;
+    font-family: Poppins, sans-serif;
+}
+
+li {
+    padding: 10px;
+    overflow: auto;
+    color: aliceblue;
+}
+
+li:hover {
+    background: #323131c9;
+    cursor: pointer;
+}
+
+.img {
+    height: 90px;
+    width: 90px;
+}
+
+.container {
+    width: 100%;
+    height: 110%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+.list {
+    /*background-color: rgb(21, 159, 21);*/
+    width: 500px;
+    height: 1100px;
+    margin: auto;
+    border-radius: 6px;
+    border: 7px solid  rgba(51, 46, 46, 0.674);
+    position: relative;
+    top: 182px;
+    text-align: left;
+}
+
+.btn {
+    margin-bottom: 0px;
+}
+
+.btn-start {
+    position: fixed;
+    background: rgba(255, 68, 0, 1);
+    border: 1px solid rgba(255, 68, 0, 0.719);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.6);
+    padding-bottom: 20px;
+    bottom: 8%;
+    left: 700px;
+    transform: skew(-30deg);
+    -webkit-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);a
+}
+
+.btn-start:hover{
+    background: rgba(255, 68, 0, 0.416);
+}
+
+.workname {
+    position: relative;
+    margin-top: 0px;
+    padding: 0;
+    top: 120px;
+    font-family: "euclid_circular_a", "Arial", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.beg{
+    position: relative;
+    top: 118px;
+    color: rgba(255, 68, 0, 1);
+}
+
+.beg p{
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+}
+
+.li1{
+    background-color: rgba(51, 46, 46, 0.674);
+}
+
+.li2{
+    background-color: rgba(51, 50, 50, 0.564);
+}

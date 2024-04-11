@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slide</title>
+  <link rel="stylesheet" href="slide.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="carousel">
+      <div class="slider">
+        <section>
+          <div class="section1 timer-slide">
+            <div id="jumping-jacks" class="workout-name">
+              <h2>Jumping Jacks</h2>
+            </div>
+            <div class="data-percent">
+              <img src="/abs/jumping-jacks.gif" class="image" alt="">
+            </div>
+            <div id="timer">00:00</div>
+            <div class="btn">
+              <button type="button" class="play " onclick="play()">Play</button>
+              <button type="button" class="pause d-none" onclick="pause()">Pause</button>
+              <button type="button" class="reset" onclick="reset()">Reset</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section2">
+            <div class="workout-name abdominal-crunches">
+              <h2>Abdominal Crunches</h2>
+            </div>
+            <div class="data-percent"> <img src="/abs/abdominal-crunches.gif" class="image" alt="">
+            </div>
+            <div class="workout-count">x20</div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section3">
+            <div class="workout-name russian-twist">
+              <h2>Russian Twist</h2>
+            </div>
+            <div class="data-percent"> <img src="/abs/russian-twist.gif" class="image" alt="">
+            </div>
+            <div class="workout-count">x20</div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section4">
+            <div class="workout-name heel-touch">
+              <h2>Heel Touch</h2>
+            </div>
+            <div class="data-percent"> <img src="/abs/heel-touch.gif" class="image" alt="">
+            </div>
+            <div class="workout-count">x20</div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section5">
+            <div class="workout-name mountain-climber">
+              <h2>Mountain Climber</h2>
+            </div>
+            <div class="data-percent"> <img src="/abs/mountain-climber.gif" class="image" alt="">
+            </div>
+            <div class="workout-count">x20</div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section6 timer-slide">
+            <div class="data-percent rest">
+              <div class="take-rest">
+                <h2>Take Rest</h2>
+              </div>
+            </div>
+            <div class="btn rest-btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section7">
+            <div class="workout-name abdominal-crunches">
+              <h2>Abdominal Crunches</h2>
+            </div>
+            <div class="data-percent"> <img src="/abs/abdominal-crunches.gif" class="image" alt="">
+            </div>
+            <div class="workout-count">x20</div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section8">
+            <div class="workout-name russian-twist">
+              <h2>Russian Twist</h2>
+            </div>
+
+            <div class="data-percent"> <img src="/abs/russian-twist.gif" class="image" alt="">
+            </div>
+            <div class="workout-count">x20</div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section9">
+            <div class="workout-name heel-touch">
+              <h2>Heel Touch</h2>
+            </div>
+
+            <div class="data-percent"> <img src="/abs/heel-touch.gif" class="image" alt="">
+            </div>
+            <div class="workout-count">x20</div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section10">
+            <div class="workout-name mountain-climber">
+              <h2>Mountain Climber</h2>
+            </div>
+
+            <div class="data-percent"> <img src="/abs/mountain-climber.gif" class="image" alt="">
+            </div>
+            <div class="workout-count">x20</div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section11">
+            <div class="workout-name plank">
+              <h2>Plank</h2>
+            </div>
+            <div class="data-percent"> <img src="/abs/plank.gif" class="image" alt="">
+            </div>
+            <div class="workout-count plank-count" style="font-size: 1.5rem;"><div class="hold">Hold Until You</div><div class="can">Can</div></div>
+            <div class="btn">
+              <button type="button" class="previous" onclick="previous()">Previous</button>
+              <button type="button" class="next" onclick="next()">Next</button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="section12">
+            <div class="img-tick">
+          <img class="tick" src="/img/tick.svg" alt="" style="height: 50px; width: 50px;"></div><div class="well-done">Well Done</div>
+          <div class="see-you"><a href="befit.html" target="_self"><button type="button" class="btn-see-you">SEE YOU NEXT TIME</button></a></div>
+          </div>
+        </section>
+      </div>
+      <div class="controls">
+        <span class="arrow left"><span class="material-icons">
+            chevron_left
+          </span></span>
+        <span class="arrow right"><span class="material-icons">
+            chevron_right
+          </span></span>
+    </div>
+  </div>
+  </div>
+  <!--<script>
+    slider = document.querySelector('.slider');
+
+    const leftArrow = document.querySelector('.left');
+    const rightArrow = document.querySelector('.right');
+
+    var sectionIndex = 0;
+
+    leftArrow.addEventListener('click', function () {
+      sectionIndex = (sectionIndex > 0) ? sectionIndex - 1 : 0 ;
+      slider.style.transform = 'translate(' + (sectionIndex) * -8.33 + '%)';
+    });
+
+    rightArrow.addEventListener('click', function () {
+      sectionIndex = (sectionIndex < 11) ? sectionIndex + 1 : 11 ;
+      slider.style.transform = 'translate(' + (sectionIndex) * -8.33 + '%)';
+    });
+  </script>-->
+  <script src="slide.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+body {
+    margin-top: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(34, 31, 31);
+    /*background-image: url('img/bgimg10.jpg');
+    /*background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);*/
+}
+
+.container {
+    width: 20%;
+    margin: 10px auto;
+    align-items: center;
+
+}
+
+.carousel {
+    /*border: 2px solid #ccc;*/
+    height: 500px;
+    width: 370px;
+    position: relative;
+    top: 80px;
+    overflow: hidden;
+}
+
+.slider {
+    height: 100%;
+    display: flex;
+    width: 1200%;
+    /*border: 1px solid red;*/
+    transition: all 0.3s;
+}
+
+.slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid green;*/
+}
+
+.controls .arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.controls .arrow .material-icons {
+    font-size: 35px;
+    transform: translateY(-50%);
+}
+
+.arrow.left {
+    left: 10px;
+    color: aliceblue;
+}
+
+.arrow.right {
+    right: 10px;
+    color: aliceblue;
+}
+
+.data-percent {
+    --angle: 360deg;
+    --color:  rgba(255, 68, 0, 0.719);
+
+    display: grid;
+    place-items: center;
+
+    position: relative;
+    z-index: 100;
+
+    height: 200px;
+    border-radius: 50%;
+    aspect-ratio: 1/ 1;
+    background: conic-gradient(var(--color) 0, var(--color) var(--angle), white var(--angle), white 360deg);
+}
+
+.data-percent::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    background: white;
+}
+
+#timer {
+    font-size: 3rem;
+    color:  rgba(255, 68, 0, 0.719);
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+.d-none {
+    display: none;
+}
+
+button {
+    background: transparent;
+}
+
+.image {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+
+.workout-name {
+    top: 5%;
+    color: #ccc;
+}
+
+#jumping-jacks {
+    padding-left: 20px;
+}
+
+.russian-twist {
+    padding-left: 24px;
+}
+
+.heel-touch {
+    padding-left: 48px;
+}
+
+.plank {
+    padding-left: 70px;
+}
+
+.workout-count {
+    font-size: 3rem;
+    color:  rgba(255, 68, 0, 0.719);
+    margin-top: 49px;
+    margin-left: 65px;
+}
+
+.next,
+.previous,
+.play,
+.pause,
+.reset {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid  rgba(255, 68, 0, 0.719);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.6);
+}
+
+.next:hover,
+.previous:hover,
+.play:hover,
+.pause:hover,
+.reset:hover {
+    background: rgba(42, 42, 42, 0.9);
+}
+
+.d-none {
+    display: none;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+.plank-count{
+    margin-left: 30px;
+
+}
+
+.can{
+    margin-left: 57px;
+}
+
+.rest{
+    margin-top: 64px;
+    margin-left: 20px;
+    --color: rgb(66, 66, 66);
+}
+
+.rest-btn{
+    margin-top: 137px;
+    margin-left: 20px;
+}
+
+.section12{
+    align-self: center;
+}
+.well-done{
+    font-size: 3rem;
+    color: orangered;
+    /*padding-top: 133px;/*
+    padding-left: 7px;*/
+}
+
+.tick{
+    padding-bottom: 20px;
+    padding-left: 74px;
+}
+
+.img-tick{/*
+    padding-top: 20px;
+    padding-left: 20px;
+*/}
+
+.see-you{
+    padding-top: 20px;
+}
+
+.btn-see-you{
+    background: rgba(255, 68, 0, 0.719);
+    border: 1px solid rgba(255, 68, 0, 0.719);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btn-see-you:hover{
+    background: rgba(255, 68, 0, 0.416);
+}
+
+.take-rest{
+    background-color: rgb(66, 66, 66);
+    height: 122px;
+    width: 130px;
+    border-radius: 50%;
+    padding-top: 45px;
+    padding-left: 35px;
+}

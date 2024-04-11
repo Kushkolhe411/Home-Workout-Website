@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color on Click</title>
+    <style>
+        /* Define the default color of list items */
+        ul li {
+            color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="cardio.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="workname">30 DAYS BEGGINERS</h1>
+        <div class="beg">
+            <p>Start</p>
+        </div>
+        <div class="list">
+            <ul id="myList">
+                <li class="li1" data-index="2">
+                    <h3>Day 1.</h3>
+                    <p>Full Body</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 2.</h3>
+                    <p>Full Body</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 3.</h3>
+                    <p>Full Body</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 4.</h3>
+                    <p>Full Body</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 5.</h3>
+                    <p>Full Body</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 6.</h3>
+                    <p>Full Body</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 7.</h3>
+                    <p>Rest Day</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 8.</h3>
+                    <p>Chest & Biceps</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 9.</h3>
+                    <p>Back & Triceps</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 10.</h3>
+                    <p>Legs & Shoulder</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 11.</h3>
+                    <p>Chest & Biceps</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 12.</h3>
+                    <p>Back & Triceps</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 13.</h3>
+                    <p>Legs & Shoulder</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 14.</h3>
+                    <p>Rest Day</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 15.</h3>
+                    <p>Chest & Biceps</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 16.</h3>
+                    <p>Back & Triceps</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 17.</h3>
+                    <p>Legs & Shoulder</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 18.</h3>
+                    <p>Chest & Biceps</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 19.</h3>
+                    <p>Back & Triceps</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 20.</h3>
+                    <p>Legs & Shoulder</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 21.</h3>
+                    <p>Rest Day</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 22.</h3>
+                    <p>Chest & Biceps</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 23.</h3>
+                    <p>Back & Triceps</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 24.</h3>
+                    <p>Legs & Shoulder</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 25.</h3>
+                    <p>Chest & Biceps</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 26.</h3>
+                    <p>Back & Triceps</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 27.</h3>
+                    <p>Legs & Shoulder</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 28.</h3>
+                    <p>Rest Day</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 29.</h3>
+                    <p>Chest & Biceps</p>
+                </li>
+
+                <li class="li2" data-index="2">
+                    <h3>Day 30.</h3>
+                    <p>Back & Triceps</p>
+                </li>
+
+                <li class="li1" data-index="2">
+                    <h3>Day 31.</h3>
+                    <p>Legs & Shoulder</p>
+                </li>
+            </ul>
+        </div>
+        <div id="resetBtn" class="btn"><a href="slide.html" target="_self"><button type="button" class="btn-start">START
+                    >></button></a></div>
+    </div>
+    <!--
+<ul id="myList">
+    <li class="li1" data-index="1">
+        <img src="/abs/jumping-jacks.gif" class="img" />
+        <h3>DAY 1</h3>
+        <p>FULL BODY</p>
+    </li>
+    <li data-index="2">Item 2</li>
+    <li data-index="3">Item 3</li>
+    <li data-index="4">Item 4</li>
+</ul>
+-->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Retrieve saved clicked items from localStorage
+            const clickedItems = JSON.parse(localStorage.getItem("clickedItems")) || {};
+
+            // Loop through list items and set their color if they were clicked before
+            const listItems = document.querySelectorAll("#myList li");
+            listItems.forEach(function (item) {
+                const index = item.getAttribute("data-index");
+                if (clickedItems[index]) {
+                    item.style.background = "rgba(51, 46, 46, 0.674)";
+                }
+            });
+
+            // Add click event listener to list items
+            document.querySelectorAll("#myList li").forEach(function (item) {
+                item.addEventListener("click", function () {
+                    const index = this.getAttribute("data-index");
+                    // Change color
+                    this.style.background = "rgba(77, 241, 36, 0.447)";
+                    // Save clicked state in localStorage
+                    clickedItems[index] = true;
+                    localStorage.setItem("clickedItems", JSON.stringify(clickedItems));
+
+                    // Ask the user for confirmation
+                    const confirmation = confirm("Do you want to keep this change permanently?");
+                    if (!confirmation) {
+                        // If user selects cancel, revert the color back to black
+                        this.style.background = "rgba(51, 50, 50, 0.564)";
+                        delete clickedItems[index];
+                        localStorage.setItem("clickedItems", JSON.stringify(clickedItems));
+                    }
+
+                        });
+                    });
+                });
+    </script>
+
+</body>
+
+</html>
